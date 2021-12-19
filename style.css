@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+/**/
+
+.center{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    flex-wrap: wrap;
+}
+
+.clear{
+    clear: both;
+}
+
+h2{
+    width: 100%;
+}
+
+section.topo{
+    padding: 20px 0;
+    min-height: 500px;
+    background-color: #1a1a1a;
+}
+
+.logo{
+    width: 100%;
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.logo > span{
+    color: #3f7aff;
+}
+
+.sobre{
+    color: #fff;        
+    margin-top: 100px;
+}
+
+.sobre span{
+    font-size: 13px;
+}
+
+.sobre > h1{
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.sobre p {
+    max-width: 470px;
+    font-size: 15px;
+}
+
+section.trabalhos{
+    padding: 40px 0;
+}
+
+.trabalhos h2{
+    text-align: center;
+    color: #1b1b1b; 
+    font-size: 30px;
+}
+
+.trabalho-single{
+    display: flex;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.trabalho-image{
+    width: 50%;
+    padding: 0px;
+}
+
+.trabalho-image img{
+    width:100%;
+    height: 100%;
+}
+
+.wrapper-descricao{
+    width:50%;
+    padding:10px 20px;
+}
+
+.box-depoimento{
+    padding: 8px 15px;
+    margin: 40px 0;
+    border-radius: 8px;
+    box-shadow: 50px 50px 100px 0 rgba(0,0,0,0.15);
+}
+
+.box-depoimento p{
+    color: #4d533c;
+    margin: 10px 0;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.box-depoimento h2{
+    color: #1b1b1b;
+    font-size: 16px;
+}
+
+.box-depoimento h3{
+    color: #1b1b1b;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.box-depoimento-user{
+    display: flex;
+}
+
+.box-depoimento-user img{
+    width: 50px;
+    height: 50px;
+}
+
+.box-depoimento-nome {
+    padding: 8px 10px;
+} 
+
+.faq{
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+}
+
+.box-faq{
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 50px 50px 100px 0 rgba(0,0,0,0.15);
+    background-color: #fff;
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+    min-height: 300px;
+    padding: 30px 30px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dark{
+   box-shadow: none;
+   background-image: linear-gradient(90deg, rgba(0,0,0,0.15), #fff);
+}
+
+.box-faq:hover{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.15), #fff);
+}
+
+.box-faq.dark:hover{
+    background-image: none;
+    background-color: #fff!important;
+}
+
+.box-faq h2{
+    font-size: 24px;
+    padding: 10px 0;
+    font-weight: normal;
+}
+
+.box-faq p{
+    color: rgba(33, 56, 66, 0.6);
+    font-size: 15px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.contato {
+    padding: 40px 0;
+}
+
+section.contato > div.center{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+section.contato > h2{
+    text-align: center!important;
+    color: #1b1b1b;
+}
+
+.numeros-contato{
+    width: 50%;
+    padding: 0 30px;
+}
+
+.numeros-contato h3{
+    font-size: 25px;
+    color: #d6d6d6;
+}
+
+.numeros-contato p{
+    color: rgba(33, 56, 66, 0.6);
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.form{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.form p{
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(33, 56, 66, 0.6);
+}   
+
+.form input[type="text"]{
+    outline: none;
+    padding: 5px;
+    width: 100%;
+    height: 38px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 50px 0 rgba(0,0,0,0.08);
+    border: 1px solid #ededed;
+    background-color: #fff
+}
+
+.form textarea {
+    outline: none;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 50px 0 rgba(0,0,0,0.08);
+    border: 1px solid #ededed;
+    background-color: #fff;
+    resize: none;
+}
+
+.form input[type="submit"]{
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    background-color: #5e82ff;
+    width: 100%;
+    height: 40px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1a1a1a;
+    height: 80px;
+}
+
+footer > .center > .logo{
+    text-align: left;
+    width: 50%;
+}
+
+footer p{
+    width: 50%;
+    color: #fff;
+    text-align: right!important;
+    float: right;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px){
+    .box-faq{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .dark{
+        background-color: #fff!important;
+    }
+
+    .dark:hover{
+       background-color: rgb(231, 231, 231)!important; 
+    }
+
+    .numeros-contato,
+    .form,
+    .trabalho-image,
+    .wrapper-descricao{
+        width:100%;
+    }
+}
